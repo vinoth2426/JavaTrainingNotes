@@ -1,0 +1,25 @@
+
+e
+squid:S106."9Replace this use of System.out or System.err by a logger.(¡­¾åHİHRMAJORZ
+CODE_SMELL
+e
+squid:S1068"9Replace this use of System.out or System.err by a logger.( …‘ÛHÙHRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(¤’ÓıÿÿÿÿHÕHRMAJORZ
+CODE_SMELL
+[squid:S2387"-"ab" is the name of a field in "Calculation".(¥ŠŒzHÖHRBLOCKERZ
+CODE_SMELL
+\squid:S2387"-"cd" is the name of a field in "Calculation".(š¢™§HØHRBLOCKERZ
+CODE_SMELL
+\squid:S2387"-"bc" is the name of a field in "Calculation".(öĞúèHÜHRBLOCKERZ
+CODE_SMELL
+j
+squid:S106$"9Replace this use of System.out or System.err by a logger.(¶¡ËÙûÿÿÿÿHÛHRMAJORZ
+CODE_SMELL
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©É¶¶ÿÿÿÿÿHÚHRMINORZ
+CODE_SMELL
+jsquid:S1197;"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿH×HRMINORZ
+CODE_SMELL
+„squid:CommentedOutCodeLineB"<This block of commented-out lines of code should be removed.(ÿãÉÂûÿÿÿÿ8“êÂŸµ,HŞHRMAJORZ
+CODE_SMELL

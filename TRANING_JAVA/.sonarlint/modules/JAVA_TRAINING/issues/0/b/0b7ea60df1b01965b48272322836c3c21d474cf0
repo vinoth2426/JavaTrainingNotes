@@ -1,0 +1,19 @@
+
+jsquid:S1197"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿHÐGRMINORZ
+CODE_SMELL
+osquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(Óé¬öHÑGRBLOCKERZBUG
+osquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(£í’áHÒGRBLOCKERZBUG
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(óÝ³âýÿÿÿÿHÓGRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ë÷‹ÛÿÿÿÿÿHÔGRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(Îëß³úÿÿÿÿHÕGRMAJORZ
+CODE_SMELL
+squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶øþÃHÖGRMINORZ
+CODE_SMELL
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚÙÿ¬H×GRMINORZ
+CODE_SMELL
+Xsquid:S1148$"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHØGRMINORZVULNERABILITY

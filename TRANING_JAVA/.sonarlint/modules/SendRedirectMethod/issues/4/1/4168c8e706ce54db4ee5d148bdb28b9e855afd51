@@ -1,0 +1,6 @@
+
+lsquid:S1161":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHáIRMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HàIRMINORZ
+CODE_SMELL
+[squid:S1989"+Add a "try/catch" block for "sendRedirect".(ëŸˆòHßIRMINORZVULNERABILITY

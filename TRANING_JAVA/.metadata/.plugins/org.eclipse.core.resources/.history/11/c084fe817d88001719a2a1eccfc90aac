@@ -1,0 +1,11 @@
+package Encapsulation;
+
+public class Address {
+	
+	private int pincode;
+	private String street;
+	
+	
+	
+
+}

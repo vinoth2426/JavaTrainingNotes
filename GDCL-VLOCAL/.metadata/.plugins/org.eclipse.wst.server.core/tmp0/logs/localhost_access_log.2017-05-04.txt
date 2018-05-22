@@ -1,0 +1,9 @@
+127.0.0.1 - - [04/May/2017:16:50:29 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [04/May/2017:16:50:29 +0530] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2017:16:50:29 +0530] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2017:16:50:29 +0530] "GET / HTTP/1.1" 404 -
+0:0:0:0:0:0:0:1 - - [04/May/2017:16:51:19 +0530] "GET /HibernateWebApplicationFirst HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/May/2017:16:51:21 +0530] "GET /HibernateWebApplicationFirst/ HTTP/1.1" 200 255
+0:0:0:0:0:0:0:1 - - [04/May/2017:16:51:21 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [04/May/2017:16:51:42 +0530] "GET /HibernateWebApplicationFirst/ HTTP/1.1" 200 254
+0:0:0:0:0:0:0:1 - - [04/May/2017:16:52:09 +0530] "POST /HibernateWebApplicationFirst/register.jsp HTTP/1.1" 200 39

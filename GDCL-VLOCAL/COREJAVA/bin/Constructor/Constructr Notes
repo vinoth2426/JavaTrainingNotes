@@ -1,0 +1,43 @@
+1.Constructor in java is a special type of method that is used to initialize the object.
+Java constructor is invoked at the time of object creation. It constructs the values i.e. provides data for the object that is why it is known as constructor.
+
+Rule:Constructor name must be same as its class name
+Types:
+*.Default constructor (no-arg constructor)
+*.Parameterized constructor.
+
+
+Default Constructor:
+A constructor that have no parameter is known as default constructor.
+Syntax:
+<class_name>()
+{
+constrctorname()
+{
+}
+} 
+
+class Sample
+{
+int a=10;
+int b=20;
+
+Sample(int a ,int b)
+{
+}
+
+
+
+class hello
+{
+hello()
+{
+}
+Copy Constructor:
+There is no copy constructor in java. But, we can copy the values of one object to another like copy constructor in C++.
+
+There are many ways to copy the values of one object into another in java. They are:
+
+By constructor
+By assigning the values of one object into another
+By clone() method of Object class

@@ -1,0 +1,22 @@
+
+jsquid:S1197"8Move the array designator from the variable to the type.(º ìıÿÿÿÿH±BRMINORZ
+CODE_SMELL
+esquid:S1197"8Move the array designator from the variable to the type.(¿ïÀ†H²BRMINORZ
+CODE_SMELL
+esquid:S3518"7Make sure "a" can't be zero before doing this division.(¼»ÛÍşÿÿÿÿH³BRCRITICALZBUG
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ë÷¶‚ûÿÿÿÿH´BRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(†Ø©ÇûÿÿÿÿHµBRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ßÎ üÿÿÿÿH¶BRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(²àéÁüÿÿÿÿH·BRMAJORZ
+CODE_SMELL
+gsquid:S1854"5Remove this useless assignment to local variable "a".(­ƒŸ‚ùÿÿÿÿH¸BRMAJORZ
+CODE_SMELL
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÛÓ„¿H¹BRMINORZ
+CODE_SMELL

@@ -1,0 +1,19 @@
+
+e
+squid:S106/"9Replace this use of System.out or System.err by a logger.(€ì…İHßGRMAJORZ
+CODE_SMELL
+Msquid:S1659," Declare "vb" on a separate line.(§›ù”HàGRMINORZ
+CODE_SMELL
+{squid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¸½Ù•HáGRMINORZ
+CODE_SMELL
+jsquid:S1197)"8Move the array designator from the variable to the type.(º ìıÿÿÿÿHâGRMINORZ
+CODE_SMELL
+j
+squid:S1060"9Replace this use of System.out or System.err by a logger.(…‘÷ğøÿÿÿÿHãGRMAJORZ
+CODE_SMELL
+{squid:S00101'"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÿşÎ³HäGRMINORZ
+CODE_SMELL
+€squid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ò‹ÂÂúÿÿÿÿHåGRMINORZ
+CODE_SMELL
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Èøù¥ÿÿÿÿÿHæGRMINORZ
+CODE_SMELL

@@ -1,0 +1,15 @@
+
+jsquid:S1197"8Move the array designator from the variable to the type.(º ìıÿÿÿÿHñERMINORZ
+CODE_SMELL
+†squid:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(ã•Å„HòERMINORZ
+CODE_SMELL
+j
+squid:S106!"9Replace this use of System.out or System.err by a logger.(½œ¥ùÿÿÿÿHóERMAJORZ
+CODE_SMELL
+j
+squid:S106%"9Replace this use of System.out or System.err by a logger.(ˆ¢ÛßüÿÿÿÿHôERMAJORZ
+CODE_SMELL
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëƒ×ŞøÿÿÿÿHõERMINORZ
+CODE_SMELL
+’squid:S1149	"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ã•Å„HöERMAJORZ
+CODE_SMELL

@@ -1,0 +1,13 @@
+Define:
+1.Inheritance in java is a mechanism in which one object
+ acquires all the properties and behaviors of parent object.
+2.Inheritance represents the IS-A relationship,
+ also known as parent-child relationship.
+
+class A
+{
+}
+class B extends A
+{
+}
+

@@ -1,0 +1,27 @@
+class a
+{
+	
+}
+class b extends a
+{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+public class HighLevel {
+
+	public static void main(Stirng args[])
+	{
+		b a=new b();
+	
+	}
+}

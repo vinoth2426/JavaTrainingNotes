@@ -1,0 +1,66 @@
+<%@include file="../../Common/header.jspf"%>
+
+<form:form method="POST" id="generate_params" name="WIPPOFormSearchForm" class="WIPPOForm" modelattribute="WIPPOFormSearchForm">
+<form:hidden path="data[ID]" id='ID'/>
+<form:hidden path="data[ORG_ID]" id="ORG_ID"/>
+<form:hidden path="data[PROJECT_ID]" id="PROJECT_ID"/>
+<form:hidden path="data[VENDOR_ID]" id="VENDOR_ID"/>
+<form:hidden path="data[LOCATION_ID]" id="LOCATION_ID"/>
+<form:hidden path="data[BILL_TO_ADDRESS_ID]" id="BILL_TO_ADDRESS_ID"/>
+<form:hidden path="data[EAM_WIPPO]" id="EAM_WIPPO_LIST"/>
+<table class="formtable">
+	<tr>
+		<td class="formlabel" colspan="4" width="25%">EAM PO No</td>
+		<td class="forminputtd" colspan="4" width="25.0%">
+		<form:input	path="data[PR_NO]" id="PR_NO"  readonly='true'  class="ui-corner-all"  placeholder="Auto" /></td>
+		<td class="formlabel" colspan="4" width="25%">P.O. Date*</td>
+		<td class="forminputtd" colspan="4" width="25.0%">
+		<form:input	path="data[PO_DATE]"   id="PO_DATE" readonly='true'  class="dateField required ui-corner-all" /></td>
+	</tr>
+
+	<tr>
+		<td class="formlabel" colspan="4" width="25%">Project Code / Name*</td>
+		<td class="forminputtd" colspan="4" width="25.0%">
+		<form:select  path="data[PROJECT_CODE]" items="${projectList}" class="comboBoxMandatory projectList required"  id="getProjectDetails"/></td>
+		<td class="formlabel" colspan="4" width="25%">Shipping To Organization</td>
+		<td class="forminputtd" colspan="4" width="25.0%">
+		<form:input	path="data[ORGANIZATION_NAME]"   id="SHIPPING_TO_ORGANIZATION" readonly='true'  class="ui-corner-all" /></td>
+	</tr>
+	
+	<tr>
+		<td class="formlabel" colspan="4" width="25%">Name Of Division</td>
+		<td class="forminputtd" colspan="4" width="25.0%">
+		<form:input path="data[DIVISION]"  id="DIVISION" readonly='true' class="ui-corner-all" /></td>
+		<td class="formlabel" colspan="4" width="25%">Inventory Org ID</td>
+		<td class="forminputtd" colspan="4" width="25.0%">
+		<form:input path="data[INVENTORY_ORG_ID]"  id="INVENTORY_ORG_ID" readonly='true' class="ui-corner-all" /></td>	
+	</tr>
+	 <tr>
+		<td class="formlabel" colspan="4" width="25%"> Supplier Name* </td>
+        <td class="forminputtd" colspan="4" width="25.0%">
+        <form:input path="data[SUPPLIER_NAME]" id="supplierList" class="required ui-corner-all" /></td>
+		<td class="formlabel" colspan="4" width="25%"> Supplier Site Code* </td>
+        <td class="forminputtd" colspan="4" width="25.0%">
+       <form:select path="data[SUPPLIER_SITE_ID]"  id="VENDOR_SITE_CODE" class="required ui-corner-all"  /></td>
+	</tr>
+	<tr>
+		<td class="formlabel" colspan="16" width="25%">
+			<div id='WIPPOEntries'></div>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="formlabel" colspan="4" width="25%">Status</td>
+		<td class="forminputtd" colspan="4" width="25.0%">
+		<form:input path="data[STATUS]"   id="STATUS" class="status ui-corner-all" readonly='true' /></td>
+	</tr>
+	
+	
+</table>
+<br />
+<input type="button"  id="saveWIPPOForm" value="Save"  class="save btn"/> <input type="button" class="customSearch btn" value="Search" /> <input type="reset" class='reset btn' value="Clear" />
+</form:form>
+<br/><br/>
+<div id="grid_json" style="margin:1px;"></div>
+<script src="./script/AssetManagement/EAMWorkOrder/WIPPO.js" type="text/javascript"></script>
+<%@include file="../../Common/footer.jspf"%>

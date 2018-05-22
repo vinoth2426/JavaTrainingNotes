@@ -1,0 +1,5 @@
+Define:
+A class that is declared with abstract keyword, is known as abstract class in java. 
+It can have abstract and non-abstract methods (method with body).
+Before learning java abstract class, let's understand the abstraction in java first.
+Abstraction is a process of hiding the implementation details and showing only functionality to the user.

@@ -1,0 +1,8 @@
+What is the difference between peek(),poll() and remove() method of the Queue interface ?
+
+Both poll() and remove() method is used to remove head object of the Queue. 
+The main difference lies when the Queue is empty().
+If Queue is empty then poll() method will return null .
+ While in similar case , remove() method will throw NoSuchElementException .
+peek() method retrieves but does not remove the head of the Queue. 
+If queue is empty then peek() method also returns null.

@@ -1,0 +1,4 @@
+By providing only setter or getter method, you can make the class read-only or write-only.
+It provides you the control over the data. 
+Suppose you want to set the value of id i.e. greater than 100 only,
+ you can write the logic inside the setter method.

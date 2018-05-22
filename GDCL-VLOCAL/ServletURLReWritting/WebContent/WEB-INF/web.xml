@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ServletURLReWritting</display-name>
+   <servlet>
+    <servlet-name>SetUrlParameterServlet</servlet-name>
+    <servlet-class>
+    	com.javawithease.business.SetUrlParameterServlet
+    </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>SetUrlParameterServlet</servlet-name>
+    <url-pattern>/SetUrlParameterServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>GetUrlParameterServlet</servlet-name>
+    <servlet-class>
+    	com.javawithease.business.GetUrlParameterServlet
+    </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>GetUrlParameterServlet</servlet-name>
+    <url-pattern>/GetUrlParameterServlet</url-pattern>
+  </servlet-mapping>
+  
+   <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+  </welcome-file-list>
+  
+</web-app>

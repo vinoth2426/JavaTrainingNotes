@@ -1,0 +1,9 @@
+Exception Handling in Java:
+The exception handling in java is one of the powerful mechanism ,
+to handle the runtime errors so that normal flow of the application can be maintained.
+What is exception:
+Dictionary Meaning: Exception is an abnormal condition.
+In java, exception is an event that disrupts the normal flow of the program. 
+It is an object which is thrown at runtime.
+
+

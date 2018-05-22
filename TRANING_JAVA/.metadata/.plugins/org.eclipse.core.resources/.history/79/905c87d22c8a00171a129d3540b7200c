@@ -1,0 +1,20 @@
+package BasicJava;
+
+public class EmployeeDetails {
+	int empid;
+	String empname;
+	
+	void employeeDetails(int eid, String ename)
+	{
+		empid=eid;
+		empname=ename;
+	}
+	
+	void empdetails()
+	{
+		System.out.println(empid + "      "+empname);
+	}
+	
+public s
+	
+}

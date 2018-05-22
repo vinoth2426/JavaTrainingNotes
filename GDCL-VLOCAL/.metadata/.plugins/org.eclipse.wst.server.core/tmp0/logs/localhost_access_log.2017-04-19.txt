@@ -1,0 +1,16 @@
+127.0.0.1 - - [19/Apr/2017:08:21:33 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [19/Apr/2017:08:22:02 +0530] "GET /SendRedirect HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/Apr/2017:08:22:02 +0530] "GET /SendRedirect/ HTTP/1.1" 200 253
+0:0:0:0:0:0:0:1 - - [19/Apr/2017:08:22:03 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [19/Apr/2017:08:22:19 +0530] "GET /SendRedirect/MySearcher?name=gmail HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/Apr/2017:08:22:53 +0530] "GET /SendRedirect HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/Apr/2017:08:22:59 +0530] "GET /SendRedirect/MySearcher?name=facebook HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/Apr/2017:08:31:34 +0530] "GET /AnnotationExample/HelloWorld HTTP/1.1" 200 47
+127.0.0.1 - - [19/Apr/2017:23:34:39 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [19/Apr/2017:23:35:15 +0530] "GET /CookiesExample HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/Apr/2017:23:35:15 +0530] "GET /CookiesExample/ HTTP/1.1" 200 479
+0:0:0:0:0:0:0:1 - - [19/Apr/2017:23:35:15 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [19/Apr/2017:23:35:22 +0530] "POST /CookiesExample/CreateCookieServlet HTTP/1.1" 200 517
+0:0:0:0:0:0:0:1 - - [19/Apr/2017:23:35:37 +0530] "POST /CookiesExample/CreateCookieServlet HTTP/1.1" 200 159
+0:0:0:0:0:0:0:1 - - [19/Apr/2017:23:35:40 +0530] "POST /CookiesExample/GetCookieServlet HTTP/1.1" 200 235
+0:0:0:0:0:0:0:1 - - [19/Apr/2017:23:35:53 +0530] "POST /CookiesExample/DeleteCookieServlet HTTP/1.1" 200 65

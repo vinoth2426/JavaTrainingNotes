@@ -1,0 +1,33 @@
+package Keywords;
+/*
+ The super keyword in java is a reference variable
+that is used to refer immediate parent class object.
+
+Whenever you create the instance of subclass,
+an instance of parent class is created implicitly 
+i.e. referred by super reference variable.
+ */
+
+
+class Bike 
+{
+	int speed=500;
+}
+class studnet extends Bike
+{
+    int speed=200;
+}
+public class emp  extends studnet
+{
+	int speed=1000;
+    void display()
+    {
+       // System.out.println(super.speed);
+        System.out.println(super.speed);
+    }
+    public static void main(String args[])
+    {
+    	emp s1=new emp();
+        s1.display();
+    }
+}

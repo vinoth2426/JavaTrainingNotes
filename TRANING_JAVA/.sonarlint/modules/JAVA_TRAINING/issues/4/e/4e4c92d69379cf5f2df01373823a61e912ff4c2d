@@ -1,0 +1,12 @@
+
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ˆ¢ÛßüÿÿÿÿHFRMAJORZ
+CODE_SMELL
+…squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŠƒÆHÿERMINORZ
+CODE_SMELL
+jsquid:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿHşERMINORZ
+CODE_SMELL
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëƒ×ŞøÿÿÿÿH‚FRMINORZ
+CODE_SMELL
+†squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ğàûáH€FRMINORZ
+CODE_SMELL
